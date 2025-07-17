@@ -18,10 +18,25 @@ Check out the live version here: [Todo-List on Netlify](https://moonlit-sprinkle
 - 💾 Data saved locally using browser `localStorage`  
 - 📱 Fully responsive design for mobile and desktop
 
+---
+
+## ⚙️ CRUD Operations
+
+This app supports full **CRUD** functionality:
+
+- **Create** – Add new tasks  
+- **Read** – View the list of tasks  
+- **Update** – Edit existing task titles  
+- **Delete** – Remove tasks from the list
+
+---
+
 ## 🛠️ Built With
 - HTML
 - CSS
 - JavaScript
 
+---
+
 ## 📦 Data Storage
-All task data is stored locally in the browser using localStorage, meaning your data stays even after refreshing the page or closing the browser.
+All task data is stored locally in the browser using `localStorage`, meaning your data stays even after refreshing the page or closing the browser.
