@@ -1,0 +1,137 @@
+* {
+    font-family: "Cairo", sans-serif;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(30, 0, 70);
+    margin: 0;
+    padding: 0;
+}
+
+.class-table {
+    width: 90%;
+    margin-top: 80px;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.header {
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    border: none;
+    font-size: 18px;
+    box-shadow: 0px 3px 5px rgba(186, 186, 186, 0.38);
+    cursor: pointer;
+}
+
+button.circular {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 0;
+}
+
+#switch-lang{
+    width: 80px;
+    border-radius: 50px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+.done {
+    background-color: rgb(158, 253, 160);
+}
+
+.taskTitle {
+    width: 75%;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.taskTitle h4 {
+    margin: 0;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.taskTitle span {
+    font-size: 15px;
+}
+
+.task-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+
+.task-container {
+    padding: 10px;
+    background-color: rgb(239, 239, 239);
+}
+
+@media (max-width: 840px) {
+    .class-table {
+        width: 95%;
+        margin-top: 30px;
+    }
+
+    .task {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .task-actions {
+    flex-direction: column;
+    align-items: end;
+    justify-content:center;
+    width: 100%;
+    margin: 10px 10px;
+    gap: 10px;
+    }
+
+    button.circular {
+        width: 35px;
+        height: 35px;
+    }
+
+    .title{
+        font-size: 1px;
+        white-space: normal;
+    }
+
+    .taskTitle span {
+        font-size: 13px;
+    }
+}

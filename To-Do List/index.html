@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List | Ahmed Talaat</title>
+    <link rel="stylesheet" href="static/style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Ubuntu&display=swap');</style>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+</head>
+<body>
+    <div id="main-container" style="direction: rtl;">
+        <div class="center-div">
+            <div class="class-table">
+                <div class="header">
+                    <h2 id="page-title"></h2>
+                    <div style="display: flex; gap: 10px; align-items: center;">
+                        <button id="switch-lang" class="circular">
+                        </button>
+                        <button id="add-btn" class="circular" style="background-color: white;">
+                            <span class="material-symbols-outlined">
+                                add
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div id="tasks" class="task-container">
+                    <!-- Tasks will be inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
