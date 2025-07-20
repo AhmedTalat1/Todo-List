@@ -40,9 +40,3 @@ This app supports full **CRUD** functionality:
 
 ## 📦 Data Storage
 All task data is stored locally in the browser using `localStorage`, meaning your data stays even after refreshing the page or closing the browser.
-
-## ⚙️ Installation & Usage
-
-   ```bash
-   git clone https://github.com/ahmed-talaat/todo-list.git
-   cd todo-list
